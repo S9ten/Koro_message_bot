@@ -16,7 +16,7 @@ logging.basicConfig(
 )
 
 logger = logging.getLogger(__name__)
-TOKEN = ''
+TOKEN = 'USEYOUROWNTOKENHERE'
 # reply_keyboard = [['/start', '/reg', '/about_session']]
 buttons = [['войти в сессию', 'выйти из сессии']]
 markup = ReplyKeyboardMarkup(buttons)
